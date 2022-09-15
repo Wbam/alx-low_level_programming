@@ -1,19 +1,18 @@
-#include<stdio.h>
 /**
-*  main-put the string in the put function
-* 
+* main - print the string in the put function
 *
-*  Description: using the main function
-*  this program prints "programming is like building a multilingual puzzle 
+* Description: using the main function
+* this program prints "programing is like building multilingual puzzel
 * Return: 0
 */
-int main(void)
+int main (void)
 {
-	char c; 
+	char c;
 	int i;
 	long li;
 	long long lli;
-	 float f;   
+	float f;
+
 	printf("size of a char: %ld byte(s)\n", sizeof(c));
 	printf("size of a char: %ld byte(s)\n", sizeof(i));
 	printf("size of a char: %ld byte(s)\n", sizeof(li));
