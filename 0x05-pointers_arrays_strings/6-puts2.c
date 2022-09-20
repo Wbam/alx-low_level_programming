@@ -2,11 +2,10 @@
 #include "main.h"
 
 /**
-*
 * puts2 - prints every other character
 * @str: string
 *
-* Returns: nothing
+* Return: nothing
 */
 
 void puts2(char *str)
@@ -21,3 +20,4 @@ void puts2(char *str)
 	}
 	putchar(10);
 }
+
