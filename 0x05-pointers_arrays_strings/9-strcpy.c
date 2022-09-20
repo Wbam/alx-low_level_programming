@@ -11,6 +11,7 @@
 char *_strcpy(char *dest, char *src)
 {
 	int inc = 0;
+
 	while (*(src + inc) != '\0')
 	{
 		*(dest + inc) = *(src + inc);
@@ -20,3 +21,4 @@ char *_strcpy(char *dest, char *src)
 
 	return (dest);
 }
+
